@@ -10,7 +10,7 @@
   },
   "description": "Scaffold esbuild project for custom web components",
   "bin": {
-    "create": "index.js"
+    "create-project": "index.js"
   },
   "files": [
     "index.js",
@@ -26,5 +26,8 @@
   "devDependencies": {},
   "dependencies": {
     "enquirer": "^2.3.6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
