@@ -1,0 +1,30 @@
+{
+  "name": "cwc-starter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at-DanielVargas/esbuild-webcomponents-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/at-DanielVargas/esbuild-webcomponents-starter/issues"
+  },
+  "description": "Scaffold esbuild project for custom web components",
+  "bin": {
+    "create": "index.js"
+  },
+  "files": [
+    "index.js",
+    "templates"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.15.5"
+  },
+  "keywords": ["esbuild", "webcomponents"],
+  "author": "Daniel Vargas",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
